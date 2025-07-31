@@ -6,12 +6,12 @@ var isStatus = true;
 isStatus = false;
 console.log(customer_one);
 //any
-//let anyValue = "London";
-//anyValue = 1234;
-//anyValue = true;
-let unknownValue = "ABCD";
-//unknownValue = 1;
-//unknownValue = true;
+let anyValue = "London";
+anyValue = 1234;
+anyValue = true;
+//let unknownValue: unknown = "ABCD";
+// unknownValue = 1;
+// unknownValue = true;
 //let checking_one: string = anyValue;
 //let checking_one: string = unknownValue;
 //Arrays
@@ -19,7 +19,7 @@ var customerIDs = [1, 2, 3, 4, 5];
 customerIDs.push(100);
 var customerNames = ["john", "Robert"];
 customerNames.push("heel");
-var companyList = ["TCS"];
+//var companyList :readonly string[]  = ["TCS"];
 //companyList.push("Wipro"); // Error: Property 'push' does not exist on type 'readonly string[]'.
 console.log(customerNames);
 console.log("Hey.....!!!");
